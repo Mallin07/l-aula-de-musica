@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Activitat</title>
+
+<link rel="stylesheet" href="../../../css/styles.css">
+<link rel="stylesheet" href="../../../css/activitat_lobby.css">
+
+</head>
+
+<body>
+
+<div class="activitatContainer">
+
+<h1>Activitat</h1>
+
+<h2>Codi per entrar</h2>
+
+<div id="codiActivitat" class="codi"></div>
+
+<h3>Alumnes connectats</h3>
+
+<ul id="llistaAlumnes" class="llista"></ul>
+
+<div class="controls">
+
+<button id="comencarActivitat">
+Començar activitat
+</button>
+
+<button onclick="anarPagina('presentacio_families.html')">
+Tornar
+</button>
+
+</div>
+
+</div>
+
+<script src="../../../js/menu.js"></script>
+
+<script type="module" src="../../../js/authGuard.js"></script>
+<script type="module" src="../../../js/activitat_engine.js"></script>
+
+</body>
+</html>

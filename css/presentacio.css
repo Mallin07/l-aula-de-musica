@@ -1,0 +1,19 @@
+.instrument{
+margin:40px 0;
+padding:20px;
+border:1px solid #ddd;
+border-radius:10px;
+background:#fafafa;
+}
+
+.instrument img{
+max-width:250px;
+width:100%;
+height:auto;
+display:block;
+margin:20px auto;
+}
+
+.instrument audio{
+margin-top:10px;
+}

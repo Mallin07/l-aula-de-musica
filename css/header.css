@@ -1,0 +1,55 @@
+.topbar{
+
+position:fixed;
+top:0;
+left:0;
+right:0;
+
+height:60px;
+
+background:#2c7be5;
+color:white;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 30px;
+
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+
+z-index:1000;
+
+}
+
+.logo{
+
+font-weight:bold;
+font-size:18px;
+
+}
+
+.classeInfo{
+
+font-size:14px;
+
+}
+
+.userInfo{
+
+display:flex;
+gap:10px;
+align-items:center;
+
+}
+
+.userInfo button{
+
+background:white;
+color:#2c7be5;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+cursor:pointer;
+
+}

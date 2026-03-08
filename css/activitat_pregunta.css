@@ -1,0 +1,66 @@
+.preguntaContainer{
+
+max-width:900px;
+margin:auto;
+text-align:center;
+padding-top:80px;
+
+}
+
+#titolPregunta{
+
+font-size:40px;
+margin-bottom:20px;
+
+}
+
+#reproductor audio{
+
+width:100%;
+max-width:600px;
+
+}
+
+#temporitzador{
+
+font-size:70px;
+font-weight:bold;
+color:#d9534f;
+margin:30px 0;
+
+}
+
+#ranking{
+
+margin-top:30px;
+
+}
+
+#ranking li{
+
+font-size:22px;
+margin:5px;
+
+}
+
+#seguentPregunta{
+
+margin-top:30px;
+font-size:18px;
+
+}
+
+#contadorRespostes{
+font-size:20px;
+margin:10px 0;
+color:#555;
+}
+
+#respostaCorrecta{
+
+font-size:30px;
+font-weight:bold;
+margin:20px 0;
+color:#28a745;
+
+}

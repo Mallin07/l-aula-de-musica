@@ -1,0 +1,40 @@
+body{
+padding-top:60px;
+}
+
+.activitatContainer{
+max-width:900px;
+margin:auto;
+text-align:center;
+padding:20px;
+}
+
+.codi{
+font-size:70px;
+font-weight:bold;
+color:#2c7be5;
+margin:20px 0;
+}
+
+.controls{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.llista{
+margin-top:20px;
+padding:0;
+list-style:none;
+}
+
+.llista li{
+background:white;
+margin:5px auto;
+padding:8px;
+border-radius:6px;
+max-width:300px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}

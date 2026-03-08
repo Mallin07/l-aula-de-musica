@@ -12,6 +12,25 @@
 
 <body>
 
+  <link rel="stylesheet" href="css/header.css">
+  
+  <div class="topbar">
+  
+  <div class="logo">
+  Aula de Música
+  </div>
+  
+  <div class="classeInfo">
+  Classe actual: <span id="classeActualTop">Cap</span>
+  </div>
+  
+  <div class="userInfo">
+  <span id="userEmail"></span>
+  <button onclick="logout()">Sortir</button>
+  </div>
+  
+  </div>    
+
 <div class="container">
 
 <h1>Menú principal</h1>
@@ -22,12 +41,8 @@
 Dictats
 </button>
 
-<button id="historia" onclick="anarPagina('historia.html')">
+<button id="historia" onclick="anarPagina('apartats_principals/historia.html')">
 Història de la música
-</button>
-
-<button id="instruments" onclick="anarPagina('instruments.html')">
-Instruments i famílies
 </button>
 
 <button id="interpretacio" onclick="anarPagina('interpretacio.html')">
@@ -38,7 +53,7 @@ Interpretació
 Lectura
 </button>
 
-<button id="teoria" onclick="anarPagina('teoria.html')">
+<button id="teoria" onclick="anarPagina('apartats_principals/teoria.html')">
 Teoria musical
 </button>
 
@@ -46,7 +61,9 @@ Teoria musical
 
 </div>
 
+<script type="module" src="js/authGuard.js"></script>
 <script type="module" src="js/menu.js"></script>
+<script type="module" src="js/header.js"></script>
 
 </body>
 
