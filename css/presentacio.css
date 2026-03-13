@@ -22,3 +22,10 @@ margin-top:10px;
     max-width:100px;
     width:100%;
 }
+
+.resposta{
+display:none;
+margin-top:10px;
+font-weight:bold;
+color:#2c7a2c;
+}
